@@ -1,4 +1,3 @@
-# PORTFOLIO
-Tecnologias usadas: HTML5, CSS3 e JAVASCRIPT!
+# Site Portfólio
 
-Tempo estimado de produção: 6 meses!
+- Stacks: HTML5,CSS3 E JAVASCRIPT ES6+

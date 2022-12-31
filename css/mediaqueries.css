@@ -1,0 +1,355 @@
+@media only screen and (max-width: 1245px) {
+
+    /* CERTIFICAÇÃO */
+
+    .certification-img-name img {
+        width: 300px;
+    }
+    
+    .certification-vertical p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 965px) {
+
+    /* APRESENTATION */
+
+    .apresentation-nome span {
+        font-size: 1.8rem;
+    }
+
+    .figura img {
+        margin: 0 1rem;
+        width: 20rem;
+    }
+
+    .apresentation-description p {
+        font-size: 1.4rem;
+    }
+
+    /* SOBRE MIM */
+
+    .sobremim-foto img {
+        width: 12rem;
+    }
+
+    .sobremim-nome h2 {
+        font-size: 0.9rem;
+    }
+
+    .sobremim-description p {
+        font-size: 0.8rem;
+        width: 400px;
+        text-align: left;
+    }
+
+    /* CONHECIMENTOS */
+
+    .boxes-container {
+        width: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 895px) {
+    /* CERTIFICAÇÃO */
+
+    .certification-img-name img {
+        border-radius: 0.2rem;
+        width: 400px;
+    }
+
+    .certification-img-name {
+        width: 70%;
+    }
+
+    /* PROJETOS */
+
+    .box-projeto {
+        text-align: center;
+        width: 80%;
+    }
+
+    .projeto-img {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    /*  CONHECIMENTOS */
+
+    .boxes-container {
+        width: 600px;
+    }
+    
+    .box-icone {
+        zoom: 0.9;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+
+    /* PROJETOS */
+
+    .projetos-box-container {
+        margin: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+}
+
+@media only screen and (max-width: 670px) {
+
+    /*  APRESENTATION */
+    .apresentation-nome span {
+        font-size: 2rem;
+    } 
+    
+    .apresentation-nome p {
+        font-size: 1.6rem;
+    }
+
+    .apresentation-foto img {
+        width: 8rem;
+    }
+
+    .principal-nome {
+        width: 100%;
+        flex-direction: wrap;
+    }
+
+    .links-curriculo-externo {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .github {
+        margin: 0 0 0.5rem 0;
+    }
+
+    .github p,.curriculo p {
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
+
+    .github a,.curriculo a {
+       width: 60vw;
+    }
+
+    .figura img {
+        display: none;
+        margin: 0;
+    }
+
+    .container-apresentation {
+        padding: 7rem 0 5rem 0;
+    }
+
+    /*  CONHECIMENTOS */
+
+    .boxes-container {
+        width: 400px;
+    }
+
+    .conhecimentos-container {
+        border-radius: 0.5rem;
+        padding: 2rem 0 4rem 0;
+        width: 100%;
+        margin: 0 auto;
+    } 
+
+    .conhecimentos-title-center {
+        margin: 0 0 1rem 0;
+    }
+
+    /* SOBRE MIM */
+
+    .sobremim-container {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 3rem 0 1rem 0;
+    }    
+
+    .sobremim-foto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobremim-foto img {
+        clip-path: circle(47% at 50% 50%);
+        border: 0;
+        margin: 0;
+        width: 15rem;
+    }
+
+    .sobremim-cidade p {
+        margin: 3rem 0 2rem 0;
+        text-align: center;
+    }
+
+    .sobremim-description {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobremim-description p {
+        width: 400px;
+        text-align: center;
+        margin: 0 2rem;
+        color: rgb(37, 37, 37);
+        font-family: 'Inter', sans-serif;
+    }
+
+    .sobremim-email-whatsapp {
+        margin: 2rem 0 0 0;
+        justify-content: center;
+    }
+
+    .sobremim-container {
+        display: block;
+    }
+
+    .sobremim-nome > .border-bottom {
+        margin: -15px auto;
+    }
+
+    .sobremim-description-titulo {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    /* CERTIFICAÇÃO */
+
+    .certification-img-name img {
+        width: 250px;
+    }
+
+    .certification-img-name {
+        width: 70%;
+    }
+
+    .certification-vertical p {
+        font-size: 1.2rem;
+    }
+
+    /* PROJETOS */
+
+    .projetos-container {
+        margin: 0;
+    }
+
+    /* FOOTER */
+
+    .rodape-name-copy {
+        flex-direction: column;
+    }
+
+    .copy-name {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .socialnetwork-icon-link p {
+       display: none;
+    }
+
+    .socialnetwork-icon-link {
+        margin: 0 0 3rem 0;
+        justify-content: center;
+    }
+
+    .socialnetwork-icon-link i {
+        margin: 1rem 0.5rem 1rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    
+    /*  APRESENTATION */
+    .apresentation-nome span {
+        font-size: 1.9rem;
+    } 
+    
+    .apresentation-nome p {
+        font-size: 1.5rem;
+    }
+    .github p,.curriculo p {
+        font-size: 1.1rem;
+    }
+
+    .github a,.curriculo a {
+       width: 80vw;
+    }
+
+    /* SOBRE MIM */
+
+    .email,.whatsapp {
+        padding: 10px;
+    }
+
+    .email i,.whatsapp i {
+        font-size: 1rem;
+    }
+
+    .email img,.whatsapp img {
+        width: 45px;
+    }
+
+    /* CONHECIMENTOS */
+    
+    .boxes-container {
+        width: 100px;
+    }
+
+    .box-icone {
+        margin: 1.3rem 0;
+        padding: 1.5rem;
+    }
+
+    #img-html,#img-css,#img-js,#img-react,#img-boostrap,#img-github,#img-vscode,#img-trello,#img-seo {
+        zoom: 1;
+    }
+
+    /* PROJETOS */
+
+    .box-projeto {
+        text-align: center;
+        width: 90%;
+    }
+    
+     /* CERTIFICAÇÃO */
+
+    .certification-img-name img {
+        width: 80%;
+    }
+
+    .certification-img-name:hover {
+        transform: none;
+    }    
+
+    .certification-img-name {
+        margin: 1rem 0.5rem;
+        width: 90%;
+    }
+
+    .certification-name-center {
+        padding: 2rem 0 0 0;
+        text-align: center;
+    }
+    
+
+    .certification-vertical p {
+        font-size: 1.2rem;
+    }
+
+    /* FOOTER */
+
+    .socialnetwork-icon-link i {
+        margin: 1rem 0.2rem 1rem 0.2rem;
+    }
+}
