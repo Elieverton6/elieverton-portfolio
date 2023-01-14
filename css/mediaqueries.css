@@ -223,6 +223,21 @@
         margin: 1rem;
     }
 
+    /* EXPERIENCIA */
+
+    .experiencia-box {
+        max-width: none;
+        width: 80%;
+    }    
+
+    .experiencia-image-title img {
+        width: 100px;
+    }
+
+    .experiencia-stacks img {
+        width: 30px;
+    }
+
     /* CERTIFICAÇÃO */
 
     .certification-img-name img {

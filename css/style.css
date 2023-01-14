@@ -7,6 +7,11 @@ body {
     scroll-margin-top: 8rem;
 }
 
+::selection {
+    background-color: #0e9b38;
+    color: rgb(213, 255, 217);
+}
+
 a {
     text-decoration: none;
 }
@@ -255,17 +260,18 @@ html,body {
 #img-react { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/react-1.webp'); }
 #img-github { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/github-1.webp'); }
 #img-vercel { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/vercel-1.webp'); }
-#img-jquery { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/jquery-1.webp'); }
+#img-nextjs { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/nextjs-1.webp'); }
 #img-seo { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/seo-1.webp'); }
 #img-styledcomponents { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/styledcomponents-1.webp'); }
 #img-netlify { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/netlify-1.webp'); }
 #img-git { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/git-1.webp'); }
 #img-gitlab { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/gitlab-1.webp'); }
+#img-typescript { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/typescript-1.webp'); }
 #img-fontawesome { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/fontawesome-1.webp'); }
 
 #img-html,#img-css,#img-js,#img-react,
 #img-boostrap,#img-vscode,#img-github,
-#img-vercel,#img-seo,#img-jquery,#img-styledcomponents,#img-netlify,#img-git,#img-gitlab,#img-fontawesome {
+#img-vercel,#img-seo,#img-nextjs,#img-styledcomponents,#img-typescript,#img-netlify,#img-git,#img-gitlab,#img-fontawesome {
     justify-content: center;
     display: flex;
     align-items: center;
@@ -299,11 +305,12 @@ html,body {
 .box-icone:hover #img-github { background-image: url(""); }
 .box-icone:hover #img-vercel { background-image: url(""); }
 .box-icone:hover #img-seo { background-image: url(""); }
-.box-icone:hover #img-jquery { background-image: url(""); }
+.box-icone:hover #img-nextjs { background-image: url(""); }
 .box-icone:hover #img-styledcomponents { background-image: url(""); }
 .box-icone:hover #img-netlify { background-image: url(""); }
 .box-icone:hover #img-git { background-image: url(""); }
 .box-icone:hover #img-gitlab { background-image: url(""); }
+.box-icone:hover #img-typescript { background-image: url(""); }
 .box-icone:hover #img-fontawesome { background-image: url(""); }
 
 
@@ -323,12 +330,13 @@ html,body {
 /*** EXPERIENCIA ****/
 
 .experiencia-container {
-    background-color: whitesmoke;
-    padding: 1rem 0;
+    background-color: rgb(245, 245, 245);
+    padding: 1rem 0 2rem 0;
     margin: 4rem 0 0 0;
 }
 
 .experiencia-name-center {
+    margin: 0 auto;
     width: 150px;
 }
 
@@ -339,15 +347,63 @@ html,body {
 }
 
 .border-bottom-e {
-    margin: -15px auto 1rem auto;
+    margin: -15px auto 2rem auto;
     width: 50px;
     height: 2px;
     background-color: #0e9b38;
 }
 
-.experienciaimg {
-    background-image: url('images/lacreiimg.png');
+.experiencia-wrapper {
+    display: flex;
+}
 
+.experiencia-box {
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgba(117, 209, 132, 0.342);
+    max-width: 500px;
+    width: 100%;
+}
+
+.experiencia-image-title {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experiencia-image-title h1 {
+    font-family: 'Signika', sans-serif;
+    color: #0e9b38;
+    border-width: 20px;
+    border-bottom: 2px solid #0e9b38;
+}
+
+.experiencia-image-title img {
+    width: 120px;
+}
+
+.experiencia-description h4 {
+    font-family: 'Inter', sans-serif;
+    color: rgb(53, 52, 52);
+}
+
+.experiencia-sobre p {
+    color: rgb(46, 46, 46);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.experiencia-stacks img {
+    margin: 0 0.1rem;
+    width: 50px;
+}
+
+.experiencia-stacks h4 {
+    color: rgb(53, 52, 52);
+    font-family: 'Inter', sans-serif;
 }
 
 /***** PROJETOS ******/
