@@ -41,7 +41,7 @@ html,body {
 
 .verMais {
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     padding: 0.5rem;
     width: 200px;
     background-color: rgba(0, 161, 0, 0.200);
@@ -114,7 +114,7 @@ html,body {
 }
 
 .github a,.curriculo a {
-    border-radius: 10px;
+    border-radius: 0.3rem;
     padding: 0.8rem;
     text-align: center;
     margin: 0 0.3rem;
@@ -191,6 +191,7 @@ html,body {
 }
 
 .email,.whatsapp {
+    cursor: pointer;
     display: flex;
     margin: 0 0.2rem;
     width: 1rem;
@@ -199,7 +200,7 @@ html,body {
     padding: 0.8rem;
     background-color: green;
     transition: all 0.1s;
-    border-radius: 5rem;
+    border-radius: 0.3rem;
 }
 
 .email i,.whatsapp i {
@@ -233,7 +234,7 @@ html,body {
 }
 
 .conhecimentos-container {
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     margin: 5rem auto 0 auto;
     padding: 1.5rem;
     background-color: whitesmoke;
@@ -241,8 +242,8 @@ html,body {
 }
 
 .boxes-container {
+    width: 80%;
     margin: 0 auto;
-    width: 800px;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
@@ -252,37 +253,38 @@ html,body {
     margin: 0 auto;
 }
 
-#img-html { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/html5-1.webp'); }
-#img-css { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/css3-1.webp'); }
-#img-js { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/js5-1.webp'); }
-#img-boostrap { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/boostrap-1.webp'); }
-#img-vscode { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/vscode-1.webp'); }
-#img-react { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/react-1.webp'); }
-#img-github { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/github-1.webp'); }
-#img-vercel { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/vercel-1.webp'); }
-#img-nextjs { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/nextjs-1.webp'); }
-#img-seo { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/seo-1.webp'); }
-#img-styledcomponents { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/styledcomponents-1.webp'); }
-#img-netlify { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/netlify-1.webp'); }
-#img-git { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/git-1.webp'); }
-#img-gitlab { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/gitlab-1.webp'); }
-#img-typescript { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/typescript-1.webp'); }
-#img-fontawesome { background-repeat: no-repeat; height: 64px; width: 64px; background-image: url('../images/fontawesome-1.webp'); }
+#img-html { background-repeat: no-repeat; background-image: url('../images/html5-1.webp'); }
+#img-css { background-repeat: no-repeat; background-image: url('../images/css3-1.webp'); }
+#img-js { background-repeat: no-repeat; background-image: url('../images/js5-1.webp'); }
+#img-boostrap { background-repeat: no-repeat; background-image: url('../images/boostrap-1.webp'); }
+#img-vscode { background-repeat: no-repeat; background-image: url('../images/vscode-1.webp'); }
+#img-react { background-repeat: no-repeat; background-image: url('../images/react-1.webp'); }
+#img-github { background-repeat: no-repeat; background-image: url('../images/github-1.webp'); }
+#img-vercel { background-repeat: no-repeat; background-image: url('../images/vercel-1.webp'); }
+#img-nextjs { background-repeat: no-repeat; background-image: url('../images/nextjs-1.webp'); }
+#img-seo { background-repeat: no-repeat; background-image: url('../images/seo-1.webp'); }
+#img-styledcomponents { background-repeat: no-repeat; background-image: url('../images/styledcomponents-1.webp'); }
+#img-netlify { background-repeat: no-repeat; background-image: url('../images/netlify-1.webp'); }
+#img-git { background-repeat: no-repeat; background-image: url('../images/git-1.webp'); }
+#img-gitlab { background-repeat: no-repeat; background-image: url('../images/gitlab-1.webp'); }
+#img-typescript { background-repeat: no-repeat; background-image: url('../images/typescript-1.webp'); }
 
 #img-html,#img-css,#img-js,#img-react,
 #img-boostrap,#img-vscode,#img-github,
-#img-vercel,#img-seo,#img-nextjs,#img-styledcomponents,#img-typescript,#img-netlify,#img-git,#img-gitlab,#img-fontawesome {
+#img-vercel,#img-seo,#img-nextjs,
+#img-styledcomponents,#img-typescript,
+#img-netlify,#img-git,#img-gitlab,#img-fontawesome {
+    height: 64px; width: 64px;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
 .box-icone {
+    border-radius: 0.3rem;
     margin: 1rem;
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
     background-color: rgb(7, 172, 7);
-    padding: 1.5rem;
+    padding: 1.2rem;
     transition: all 0.5s
 }
 
@@ -323,7 +325,7 @@ html,body {
     text-align: center;
     letter-spacing: 2px;
     font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
+    font-size: 0.85rem;
     display: none;
 }
 
@@ -436,15 +438,16 @@ html,body {
 }
 
 .box-projeto {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
     background-color: rgb(211, 211, 211);
     margin: 0 1rem 1rem 1rem;
 }
 
 .projeto-img {
+    background-color: transparent;
     margin: 0 auto;
 }
 
@@ -467,9 +470,9 @@ html,body {
 }
 
 .projeto-img img {
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
     border: 0 solid green;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
     width: 100%;
 }
 
@@ -529,7 +532,7 @@ html,body {
 }
 
 .hard-skill {
-    border: 2px solid white;
+    border: 2px solid rgba(110, 110, 110, 0.3);
     border-radius: 0.3rem;
     padding: 0.5rem 0;
     align-items: center;
@@ -547,7 +550,7 @@ html,body {
 .hard-skill img {
     border-radius: 0.3rem;
     padding: 0.5rem;
-    background-color: rgba(70, 70, 70, 0.100);
+    background-color: rgba(110, 110, 110, 0.4);
     margin: 0;
 }
 
@@ -578,7 +581,7 @@ html,body {
 
 .certification-img-name {
     transition: 0.3s;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     margin: 0 1rem 3rem 1rem;
     padding: 1rem;
     background: rgb(117,236,76);
@@ -636,7 +639,7 @@ footer {
     transition: 0.2s;
     padding: 0.5rem;
     background-color: green;
-    color: rgb(108, 255, 108);
+    color: rgb(251, 252, 251);
     font-size: 1.5rem;
     margin: 0 0.5rem;
 }

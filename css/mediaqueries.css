@@ -318,7 +318,8 @@
     /* CONHECIMENTOS */
     
     .boxes-container {
-        width: 100px;
+        width: 100%;
+        max-width: 230px;
     }
 
     .box-icone {
