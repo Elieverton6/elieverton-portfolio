@@ -90,7 +90,7 @@
         max-width: 90vw;
     }
     
-    .conhecimentos-tecnico-wrapper h1,.conhecimentos-profissional-wrapper h1 {
+    .conhecimentos-tecnico-wrapper h2,.conhecimentos-profissional-wrapper h2 {
         font-size: 1.25rem;
     }
 
@@ -98,6 +98,10 @@
         width: 100%;
         max-width: none;
     }
+
+    .conhecimentos-box h3 {
+        font-size: 1rem;
+    }    
 }
 
 @media only screen and (max-width: 670px) {
