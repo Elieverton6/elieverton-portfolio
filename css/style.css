@@ -132,7 +132,7 @@ html,body {
     text-align: center;
     font-family: 'Signika', sans-serif;
     font-size: 1rem;
-    color: rgb(0, 143, 12);
+    color: green;
 }
 
 .github i,.curriculo i {
@@ -147,7 +147,7 @@ html,body {
 
 .sobremim-foto img {
     margin: 0 1rem;
-    border-left: 5px solid #04bd3c;
+    border-left: 5px solid green;
 }
 
 .sobremim-container {
@@ -165,11 +165,11 @@ html,body {
     margin-top: -15px;
     width: 60px;
     height: 2px;
-    background-color: #04bd3c;
+    background-color: green;
 }
 
 .sobremim-description-titulo h1 {
-    color: #0e9b38;
+    color: green;
     font-family: 'Signika', sans-serif;
 }
 
@@ -220,11 +220,11 @@ html,body {
     margin: -10px auto 2rem auto;
     width: 60px;
     height: 2px;
-    background-color: #04bd3c;
+    background-color: green;
 }
 
 .conhecimentos-title-center h1 {
-    color: #0e9b38;
+    color: green;
     font-family: 'Signika', sans-serif;
     text-align: center;
 }
@@ -241,92 +241,55 @@ html,body {
     width: 90%;
 }
 
-.boxes-container {
-    width: 80%;
+.conhecimentos-type-wrapper {
     margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conhecimentos-tecnico-wrapper,.conhecimentos-profissional-wrapper {
+    width: 100%;
+    flex-direction: column;
     display: flex;
 }
 
-.box-icone-description {
-    margin: 0 auto;
+.conhecimentos-box:not(.conhecimentos-box:nth-of-type(1)) {
+    margin: 2.5rem 0;
 }
 
-#img-html { background-repeat: no-repeat; background-image: url('../images/html5-1.webp'); }
-#img-css { background-repeat: no-repeat; background-image: url('../images/css3-1.webp'); }
-#img-js { background-repeat: no-repeat; background-image: url('../images/js5-1.webp'); }
-#img-boostrap { background-repeat: no-repeat; background-image: url('../images/boostrap-1.webp'); }
-#img-vscode { background-repeat: no-repeat; background-image: url('../images/vscode-1.webp'); }
-#img-react { background-repeat: no-repeat; background-image: url('../images/react-1.webp'); }
-#img-github { background-repeat: no-repeat; background-image: url('../images/github-1.webp'); }
-#img-vercel { background-repeat: no-repeat; background-image: url('../images/vercel-1.webp'); }
-#img-nextjs { background-repeat: no-repeat; background-image: url('../images/nextjs-1.webp'); }
-#img-seo { background-repeat: no-repeat; background-image: url('../images/seo-1.webp'); }
-#img-styledcomponents { background-repeat: no-repeat; background-image: url('../images/styledcomponents-1.webp'); }
-#img-netlify { background-repeat: no-repeat; background-image: url('../images/netlify-1.webp'); }
-#img-git { background-repeat: no-repeat; background-image: url('../images/git-1.webp'); }
-#img-gitlab { background-repeat: no-repeat; background-image: url('../images/gitlab-1.webp'); }
-#img-typescript { background-repeat: no-repeat; background-image: url('../images/typescript-1.webp'); }
-
-#img-html,#img-css,#img-js,#img-react,
-#img-boostrap,#img-vscode,#img-github,
-#img-vercel,#img-seo,#img-nextjs,
-#img-styledcomponents,#img-typescript,
-#img-netlify,#img-git,#img-gitlab,#img-fontawesome {
-    height: 64px; width: 64px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+.conhecimentos-box h3 {
+    color: rgb(37, 37, 37);
+    font-family: 'Inter', sans-serif;
 }
 
-.box-icone {
-    border-radius: 0.3rem;
-    margin: 1rem;
-    background-color: rgb(7, 172, 7);
-    padding: 1.2rem;
-    transition: all 0.5s
+.conhecimentos-porcentagem {
+    height: 10px;
+    margin-top: -10px;
+    max-width: 350px;
+    border-radius: 1rem;
+    width: 100%;
+    background-color: rgba(182, 182, 182, 0.938);
 }
 
-.box-icone i {
-    color: white;
-    font-size: 4rem;
+.conhecimentos-box .conhecimentos-progressbar {
+    height: 10px;
+    border-radius: 1rem;
+    background-color: green;
 }
 
-.box-icone:hover {
-    transform: scale(1.050);
-    background-color: rgb(3, 121, 3);
+.conhecimentos-tecnico-wrapper,.conhecimentos-profissional-wrapper {
+    max-width: 350px;
+    width: 100%;
 }
 
-.box-icone:hover #img-html { background-image: url(""); }
-.box-icone:hover #img-css { background-image: url(""); }
-.box-icone:hover #img-js { background-image: url(""); }
-.box-icone:hover #img-react { background-image: url(""); }
-.box-icone:hover #img-boostrap { background-image: url(""); }
-.box-icone:hover #img-vscode { background-image: url(""); }
-.box-icone:hover #img-github { background-image: url(""); }
-.box-icone:hover #img-vercel { background-image: url(""); }
-.box-icone:hover #img-seo { background-image: url(""); }
-.box-icone:hover #img-nextjs { background-image: url(""); }
-.box-icone:hover #img-styledcomponents { background-image: url(""); }
-.box-icone:hover #img-netlify { background-image: url(""); }
-.box-icone:hover #img-git { background-image: url(""); }
-.box-icone:hover #img-gitlab { background-image: url(""); }
-.box-icone:hover #img-typescript { background-image: url(""); }
-.box-icone:hover #img-fontawesome { background-image: url(""); }
-
-
-.box-icone:hover p {
-    color: rgb(152, 255, 152);
-    display: block;
-}
-
-.box-icone p {
+.conhecimentos-tecnico-wrapper h1,.conhecimentos-profissional-wrapper h1 {
+    border-radius: 0.15rem;
+    border-left: 0.3rem solid green;
+    color: rgb(59, 59, 59);
+    font-family: 'Signika', sans-serif;
     text-align: center;
-    letter-spacing: 2px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 0.85rem;
-    display: none;
 }
 
 /*** EXPERIENCIA ****/
@@ -343,7 +306,7 @@ html,body {
 }
 
 .experiencia-name-center h1 {
-    color: #0e9b38;
+    color: green;
     font-family: 'Signika', sans-serif;
     text-align: center;
 }
@@ -352,7 +315,7 @@ html,body {
     margin: -15px auto 2rem auto;
     width: 50px;
     height: 2px;
-    background-color: #0e9b38;
+    background-color: green;
 }
 
 .experiencia-wrapper {
@@ -378,9 +341,9 @@ html,body {
 
 .experiencia-image-title h1 {
     font-family: 'Signika', sans-serif;
-    color: #0e9b38;
+    color: green;
     border-width: 20px;
-    border-bottom: 2px solid #0e9b38;
+    border-bottom: 2px solid green;
 }
 
 .experiencia-image-title img {
@@ -568,7 +531,7 @@ html,body {
 
 .certification-name-center h1 {
     margin: 0 0 1rem 0;
-    color: rgb(13, 179, 13);
+    color: green;
     font-family: 'Signika', sans-serif;
 }
 

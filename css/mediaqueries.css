@@ -43,13 +43,6 @@
         width: 400px;
         text-align: left;
     }
-
-    /* CONHECIMENTOS */
-
-    .boxes-container {
-        width: 700px;
-    }
-
 }
 
 @media only screen and (max-width: 895px) {
@@ -78,18 +71,6 @@
 
 @media only screen and (max-width: 800px) {
 
-    /*  CONHECIMENTOS */
-
-    .boxes-container {
-        width: 600px;
-    }
-    
-    .box-icone {
-        zoom: 0.9;
-        margin: 0.5rem;
-        padding: 1rem;
-    }
-
     /* PROJETOS */
 
     .projetos-box-container {
@@ -97,7 +78,26 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }    
+    }
+    
+    .conhecimentos-type-wrapper {
+        max-width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .conhecimentos-tecnico-wrapper,.conhecimentos-profissional-wrapper {
+        max-width: 90vw;
+    }
+    
+    .conhecimentos-tecnico-wrapper h1,.conhecimentos-profissional-wrapper h1 {
+        font-size: 1.25rem;
+    }
+
+    .conhecimentos-porcentagem {
+        width: 100%;
+        max-width: none;
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -148,10 +148,6 @@
     }
 
     /*  CONHECIMENTOS */
-
-    .boxes-container {
-        width: 400px;
-    }
 
     .conhecimentos-container {
         border-radius: 0.5rem;
@@ -313,22 +309,6 @@
 
     .email img,.whatsapp img {
         width: 45px;
-    }
-
-    /* CONHECIMENTOS */
-    
-    .boxes-container {
-        width: 100%;
-        max-width: 230px;
-    }
-
-    .box-icone {
-        margin: 1.3rem 0;
-        padding: 1.5rem;
-    }
-
-    #img-html,#img-css,#img-js,#img-react,#img-boostrap,#img-github,#img-vscode,#img-trello,#img-seo {
-        zoom: 1;
     }
 
     /* PROJETOS */
