@@ -513,8 +513,41 @@ html,body {
 .hard-skill img {
     border-radius: 0.3rem;
     padding: 0.5rem;
-    background-color: rgba(110, 110, 110, 0.4);
+    background-color: rgba(110, 110, 110, 0.2);
     margin: 0;
+}
+
+.projetos-button-vermais {
+    width: 190px;
+    margin: 0 auto;
+}
+
+.projetos-button-vermais a {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    padding: 0 1rem;
+    text-align: center;
+    border-right: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.projetos-button-vermais p {
+    font-size: 1rem;
+    font-family: 'Signika', sans-serif;
+    color: white;
+}
+
+.projetos-button-vermais i {
+    font-size: 1.25rem;
+    color: white;
+    margin: 0 0.5rem 0 0;
 }
 
 /* CERTIFICAÇÕES */

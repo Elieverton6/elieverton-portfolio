@@ -234,6 +234,22 @@
         width: 100px;
     }
 
+    .experiencia-image-title h1 {
+        font-size: 1.25rem;
+    }
+
+    .experiencia-description h4 {
+        font-size: 0.9rem;
+    }
+
+    .experiencia-sobre p {
+        font-size: 0.9rem;
+    }
+
+    .experiencia-stacks h4 {
+        font-size: 0.9rem;
+    }
+
     .experiencia-stacks img {
         width: 30px;
     }
