@@ -255,28 +255,38 @@ html,body {
     display: flex;
 }
 
-.conhecimentos-box:not(.conhecimentos-box:nth-of-type(1)) {
+.conhecimentos-box {
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 2px solid rgb(6, 104, 11);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: rgb(6, 104, 11);
     margin: 2.5rem 0;
 }
 
+.conhecimentos-box:hover {
+    transform: scale(1.04);
+    -webkit-box-shadow: 1px 1px 55px -20px rgb(27, 161, 0);
+    -moz-box-shadow: 1px 1px 55px -20px rgba(27,161,0);
+    box-shadow: 1px 1px 55px -20px rgba(27,161,0);
+    border: 2px solid rgb(21, 180, 0);
+}
+
+.conhecimentos-box i {
+    font-size: 1.2rem;
+    color: white;
+}
+
 .conhecimentos-box h3 {
-    color: rgb(37, 37, 37);
+    font-weight: normal;
+    margin: 1rem 0 0 0;
+    color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
 }
 
-.conhecimentos-porcentagem {
-    height: 10px;
-    margin-top: -10px;
-    max-width: 350px;
-    border-radius: 1rem;
-    width: 100%;
-    background-color: rgba(182, 182, 182, 0.938);
-}
-
-.conhecimentos-box .conhecimentos-progressbar {
-    height: 10px;
-    border-radius: 1rem;
-    background-color: green;
+.conhecimentos-profissional-box > h3 {
+    margin: 0;
 }
 
 .conhecimentos-tecnico-wrapper,.conhecimentos-profissional-wrapper {

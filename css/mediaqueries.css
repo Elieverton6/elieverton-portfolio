@@ -164,6 +164,20 @@
         margin: 0 0 1rem 0;
     }
 
+    .conhecimentos-box {
+        margin: 1.5rem 0;
+        align-items: center;
+        display: flex;
+    }
+
+    .conhecimentos-box h3 {
+        margin: 0 0 0 1rem;
+    }
+
+    .conhecimentos-box:hover {
+        transform: scale(1.02);
+    }
+
     /* SOBRE MIM */
 
     .sobremim-container {
