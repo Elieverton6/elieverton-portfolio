@@ -6,7 +6,7 @@ header #egzinn-logo {
 
 header nav a {
     letter-spacing: 1.5px;
-    color: rgb(28, 184, 8);
+    color: rgb(28, 184, 8); 
     text-decoration: none;
     font-family: 'Signika', sans-serif;
 }
@@ -28,7 +28,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #3f3e3e;
+    background-color: #2c2c2c;
 }
   
 #menu {

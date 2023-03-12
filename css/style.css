@@ -46,19 +46,20 @@ html,body {
     width: 200px;
     background-color: rgba(0, 161, 0, 0.200);
     margin: 3rem auto 0 auto;
-    color: rgb(4, 110, 4);
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
 .verMais i {
+    color: rgba(4, 110, 4, 0.8);
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
     animation-name: anim-verMais;
 }
 
 .verMais p {
+    color: rgba(4, 110, 4, 0.8);
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
     margin: 0 1rem;
@@ -114,14 +115,13 @@ html,body {
 }
 
 .github a,.curriculo a {
+    width: 150px;
+    background-color: rgba(0, 128, 0, 0.9);
     border-radius: 0.3rem;
     padding: 0.8rem;
     text-align: center;
     margin: 0 0.3rem;
-    border-right: 2px solid green;
-    border-left: 2px solid green;
-    border-top: 2px solid green;
-    border-bottom: 5px solid green;
+    border-bottom: 5px solid rgba(0, 94, 0, 0.5);
     align-items: center;
     display: flex;
     text-decoration: none;
@@ -132,11 +132,11 @@ html,body {
     text-align: center;
     font-family: 'Signika', sans-serif;
     font-size: 1rem;
-    color: green;
+    color: rgb(255, 255, 255);
 }
 
 .github i,.curriculo i {
-    color: green;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     margin: 0 0.2rem;
 }
@@ -195,10 +195,11 @@ html,body {
     display: flex;
     margin: 0 0.2rem;
     width: 1rem;
-    height: 1.1rem;
+    height: 1rem;
     justify-content: center;
     padding: 0.8rem;
     background-color: green;
+    border-bottom: 5px solid rgba(0, 94, 0, 0.5);
     transition: all 0.1s;
     border-radius: 0.3rem;
 }
@@ -267,9 +268,6 @@ html,body {
 
 .conhecimentos-box:hover {
     transform: scale(1.04);
-    -webkit-box-shadow: 1px 1px 55px -20px rgb(27, 161, 0);
-    -moz-box-shadow: 1px 1px 55px -20px rgba(27,161,0);
-    box-shadow: 1px 1px 55px -20px rgba(27,161,0);
     border: 2px solid rgb(21, 180, 0);
 }
 
